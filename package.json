@@ -22,13 +22,11 @@
     "url": "https://github.com/acu-gulliver/elezioni2020/issues"
   },
   "homepage": "https://gulliver.univpm.it/elezioni-2020",
-  "dependencies": {
-    "http-server": "^0.12.3",
-    "laravel-mix": "^5.0.4",
-    "webpack": "^4.43.0"
-  },
   "devDependencies": {
     "cross-env": "^7.0.2",
-    "vue-template-compiler": "^2.6.11"
+    "http-server": "^0.12.3",
+    "laravel-mix": "^5.0.4",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.43.0"
   }
 }
