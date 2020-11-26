@@ -1,0 +1,34 @@
+{
+  "name": "gulliver-elezioni-2020",
+  "version": "1.0.0",
+  "description": "Sito web statico per le Elezioni 2020 UnivPM",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "serve": "node_modules/.bin/http-server ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acu-gulliver/elezioni2020.git"
+  },
+  "author": "Andrea Civita",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acu-gulliver/elezioni2020/issues"
+  },
+  "homepage": "https://gulliver.univpm.it/elezioni-2020",
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "laravel-mix": "^5.0.4",
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
