@@ -4,6 +4,12 @@
    <img src="https://avatars2.githubusercontent.com/u/54901942?s=200&v=4" alt="Gulliver Logo"/>
 </p>
 
+<br>
+
+[![GitHub license](https://img.shields.io/github/license/acu-gulliver/elezioni-2020?style=flat-square)](https://github.com/acu-gulliver/elezioni-2020/blob/master/LICENSE)
+[![Gulliver](https://img.shields.io/badge/%E2%98%AD-Gulliver-%23f00?style=flat-square)](https://gulliver.univpm.it)
+
+
 <a name="Introduction"></a>
 
 Questa repository contiene il codice relativo al sito web statico sviluppato per le **Elezioni 2020** dell'Università
